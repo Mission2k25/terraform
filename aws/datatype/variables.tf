@@ -13,7 +13,7 @@ variable "instance_type" {
 variable "common_tags" {
   type = map(any)
   default = {
-    Name    = "datatype_demo"
+    Name    = "datasource_demo"
     Purpose = "terraform_practices"
   }
 }
